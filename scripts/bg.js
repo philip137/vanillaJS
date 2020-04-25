@@ -3,14 +3,9 @@ const IMG_NUMBER = 9;
 
 function paintImage(imgNumber){
     const image = new Image();
-    body.addEventListener("loadend", function(event) {
-        if (event.type === "load")
-        {
-            image.src = `../resources/${imgNumber}.jpg`;
-            image.classList.add('bgImage');
-            body.appendChild(image);
-        }
-    })
+    image.src = `../resources/${imgNumber}.jpg`;
+    image.classList.add('bgImage');
+    body.appendChild(image);
 }
 
 function genRandom() {
