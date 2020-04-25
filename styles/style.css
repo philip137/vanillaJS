@@ -16,7 +16,7 @@ h4 {
 }
 
 .js-clock {
-    margin-top: 35%;
+    margin-top: 300px;
 }
 .js-form,
 .js-todo {
@@ -31,4 +31,17 @@ h4 {
     border-radius: 30px;
     background-color: #e6eeff;
     color: navy;
+}
+.js-toDoList {
+    text-align: left;
+    margin-left: 130px;
+}
+.delBtn {
+    border: 0px solid;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
 }
