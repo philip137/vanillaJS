@@ -39,9 +39,8 @@ h4 {
     color: navy;
 }
 .js-toDoList {
-    width: 100%;
     text-align: left;
-    margin-left: 10%;
+    padding-left: 35%;
 }
 .delBtn {
     border: 0px solid;
